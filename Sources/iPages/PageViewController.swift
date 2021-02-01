@@ -65,6 +65,7 @@ struct PageViewController: ControllerRepresentable {
                 scrollView.delegate = context.coordinator
                 break
             }
+            view.backgroundColor = .clear
         }
         
         return pageViewController
